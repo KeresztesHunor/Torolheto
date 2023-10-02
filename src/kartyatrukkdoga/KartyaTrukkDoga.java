@@ -1,8 +1,8 @@
-package mazdamiata;
+package kartyatrukkdoga;
 
 import java.util.Scanner;
 
-public class MazdaMiata
+public class KartyaTrukkDoga
 {
     private String[] pakli;
     
@@ -10,7 +10,7 @@ public class MazdaMiata
     
     public static void main(String[] args)
     {
-        new MazdaMiata().feladat();
+        new KartyaTrukkDoga().feladat();
     }
     
     private void feladat()
