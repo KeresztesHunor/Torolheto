@@ -23,10 +23,10 @@ public class MazdaMiata
     {
         pakli = new String[22];
         String[] szinek = new String[] {
-            "S",
-            "H",
-            "C",
-            "D"
+            "P",
+            "T",
+            "Z",
+            "M"
         };
         String[] szamok = new String[] {
             "V",
