@@ -35,5 +35,9 @@ public class MazdaMiata
                 pakli[i++] = szinek[j] + "_" + szamok[k++];
             }
         }
+        for (int j = 1; j < pakli.length; j++)
+        {
+            System.out.println(pakli[j]);
+        }
     }
 }
