@@ -26,9 +26,14 @@ public class MazdaMiata
             "IX",
             "X"
         };
-        for (int i = 0; i < 10; i++)
+        int i = 1;
+        for (int j = 0; j < szinek.length; j++)
         {
-            
+            int k = 0;
+            while (k < szamok.length && i < pakli.length)
+            {
+                pakli[i++] = szinek[j] + "_" + szamok[k++];
+            }
         }
     }
 }
